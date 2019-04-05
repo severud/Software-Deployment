@@ -1,0 +1,26 @@
+<Configuration ID="161b983a-3fe8-4625-ac8e-81a86d6e692e" DeploymentConfigurationID="00000000-0000-0000-0000-000000000000">
+  <Info Description="Full install of Office" />
+  <Add OfficeClientEdition="64" Channel="Monthly" OfficeMgmtCOM="TRUE" ForceUpgrade="TRUE">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+    </Product>
+    <Product ID="VisioPro2019Volume" PIDKEY="9BGNQ-K37YR-RQHF2-38RQ3-7VCBB">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+    </Product>
+    <Product ID="ProjectPro2019Volume" PIDKEY="B4NPR-3FKK7-T2MBV-FRQ4W-PKD2B">
+	  <Language ID="en-us" />
+      <ExcludeApp ID="Groove" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="1" />
+  <Property Name="PinIconsToTaskbar" Value="FALSE" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="UW Medicine" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Logging Level="Standard" Path="C:\Windows\Logs" />
+</Configuration>
