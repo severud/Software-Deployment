@@ -18,6 +18,7 @@
   <Property Name="PinIconsToTaskbar" Value="FALSE" />
   <Property Name="SCLCacheOverride" Value="0" />
   <RemoveMSI />
+  <MigrateArch />
   <AppSettings>
     <Setup Name="Company" Value="UW Medicine" />
   </AppSettings>
