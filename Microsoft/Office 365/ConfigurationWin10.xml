@@ -1,6 +1,6 @@
 <Configuration ID="161b983a-3fe8-4625-ac8e-81a86d6e692e" DeploymentConfigurationID="00000000-0000-0000-0000-000000000000">
   <Info Description="Full install of Office" />
-  <Add OfficeClientEdition="64" Channel="Monthly" OfficeMgmtCOM="TRUE" ForceUpgrade="TRUE">
+  <Add OfficeClientEdition="64" Channel="Monthly" OfficeMgmtCOM="TRUE" ForceUpgrade="TRUE" MigrateArch="TRUE">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Groove" />
@@ -18,7 +18,6 @@
   <Property Name="PinIconsToTaskbar" Value="FALSE" />
   <Property Name="SCLCacheOverride" Value="0" />
   <RemoveMSI />
-  <MigrateArch />
   <AppSettings>
     <Setup Name="Company" Value="UW Medicine" />
   </AppSettings>
