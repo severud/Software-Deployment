@@ -17,6 +17,7 @@
   <Property Name="SCLCacheOverride" Value="0" />
   <Updates Enabled="TRUE" />
   <RemoveMSI All="TRUE" />
+  <MigrateArch />
   <AppSettings>
     <Setup Name="Company" Value="UW Medicine" />
   </AppSettings>
