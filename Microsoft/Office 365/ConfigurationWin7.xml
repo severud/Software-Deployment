@@ -1,6 +1,6 @@
 <Configuration>
   <Info Description="Full install of Office" />
-  <Add OfficeClientEdition="64" Channel="Monthly" AllowCdnFallback="TRUE" ForceUpgrade="TRUE">
+  <Add OfficeClientEdition="64" Channel="Monthly" AllowCdnFallback="TRUE" ForceUpgrade="TRUE" MigrateArch="TRUE">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us" />
       <ExcludeApp ID="Groove" />
@@ -17,7 +17,6 @@
   <Property Name="SCLCacheOverride" Value="0" />
   <Updates Enabled="TRUE" />
   <RemoveMSI All="TRUE" />
-  <MigrateArch />
   <AppSettings>
     <Setup Name="Company" Value="UW Medicine" />
   </AppSettings>
