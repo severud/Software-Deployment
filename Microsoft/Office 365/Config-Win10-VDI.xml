@@ -1,6 +1,6 @@
 <!-- MigrateArch requires ODT version 16.0.11615.33602 or newer -->
 <Configuration ID="a2a768de-7209-44ae-b307-3437a49b0ad0">
-  <Info Description="Standard Office 365 ProPlus for office workers." />
+  <Info Description="Standard Office 365 ProPlus for VDI. Teams installation excluded." />
   <Add OfficeClientEdition="64" Channel="Monthly" OfficeMgmtCOM="TRUE" ForceUpgrade="TRUE" MigrateArch="TRUE">
     <Product ID="O365ProPlusRetail">
       <Language ID="MatchOS" />
