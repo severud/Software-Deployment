@@ -1,5 +1,5 @@
 <Configuration ID="7f39139e-0453-4b7d-b80d-76cd07127541">
-    <Add OfficeClientEdition="64" Channel="InsiderFast" ForceUpgrade="TRUE" MigrateArch="TRUE">
+    <Add OfficeClientEdition="64" Channel="BetaChannel" ForceUpgrade="TRUE" MigrateArch="TRUE">
         <Product ID="O365ProPlusRetail">
             <Language ID="MatchOS" />
             <Language ID="MatchPreviousMSI" />
